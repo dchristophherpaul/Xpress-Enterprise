@@ -1,0 +1,11 @@
+package com.xpress.xapps.dbconnect.repository;
+
+import org.springframework.stereotype.Repository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+import com.xpress.xapps.dbconnect.document.RunTimeConfig;
+
+@Repository
+public interface RunTimeConfigRepository extends MongoRepository<RunTimeConfig, String>{
+
+}

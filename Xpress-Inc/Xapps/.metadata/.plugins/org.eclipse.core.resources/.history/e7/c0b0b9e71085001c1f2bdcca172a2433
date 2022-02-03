@@ -1,0 +1,5 @@
+package com.xpress.xapps.dbconnect.document;
+
+public class RunTimeConfig {
+
+}

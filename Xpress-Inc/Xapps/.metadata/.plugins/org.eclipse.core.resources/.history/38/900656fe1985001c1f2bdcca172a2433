@@ -1,0 +1,5 @@
+package com.xpress.xapps.libs.common.dao;
+
+public class XappResponse {
+
+}

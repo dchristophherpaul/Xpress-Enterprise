@@ -1,0 +1,5 @@
+package com.xpress.xapps.dbconnect.repository;
+
+public class RunTimeConfigRepository {
+
+}

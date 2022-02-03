@@ -1,0 +1,5 @@
+package com.xpress.xapps.authentication.controller;
+
+public class AuthController {
+
+}

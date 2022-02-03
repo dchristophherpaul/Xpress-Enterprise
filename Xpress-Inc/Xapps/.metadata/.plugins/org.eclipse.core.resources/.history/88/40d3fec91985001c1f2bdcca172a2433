@@ -1,0 +1,7 @@
+package com.xpress.xapps.authentication.pojo;
+
+import com.xpress.xapps.libs.common.dao.XappRequest;
+
+public class AuthRequest extends XappRequest {
+
+}

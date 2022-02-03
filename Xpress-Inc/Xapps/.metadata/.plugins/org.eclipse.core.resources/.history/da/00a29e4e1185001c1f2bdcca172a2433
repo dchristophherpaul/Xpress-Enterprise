@@ -1,0 +1,7 @@
+package com.xpress.xapps.dbconnect.document;
+
+public class Backend {
+
+	private Map<String, BackEndDetail> backEndDetailsMap;
+	
+}

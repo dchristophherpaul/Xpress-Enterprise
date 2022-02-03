@@ -1,0 +1,12 @@
+package com.xpress.xapps.dbconnect.document;
+
+import java.util.Map;
+
+import lombok.Data;
+
+@Data
+public class Backend {
+
+	private Map<String, BackEndDetail> backEndDetailsMap;
+
+}

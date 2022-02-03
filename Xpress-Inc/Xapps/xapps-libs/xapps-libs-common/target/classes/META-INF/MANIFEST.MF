@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: Hp
+Build-Jdk: 15.0.2
+Implementation-Title: Xapps Common POJO
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.xpress.xapps.libs.common
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/xapps-libs/xap
+ ps-libs-common/
+Created-By: Maven Integration for Eclipse
+

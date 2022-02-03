@@ -1,0 +1,15 @@
+package com.xpress.xapps.authentication.implementation;
+
+import com.xpress.xapps.authentication.pojo.AuthRequest;
+import com.xpress.xapps.authentication.pojo.AuthResponse;
+import com.xpress.xapps.authentication.service.AuthenticationService;
+
+public class LoginAuthService extends AuthenticationService {
+
+	@Override
+	public AuthResponse executeImplementaion(AuthRequest authRequest) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;xapp-libs&apos;" deleteContents="true" description="Delete resource &apos;xapp-libs&apos;" element1="/xapp-libs" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1643903497037"/>
+</session>

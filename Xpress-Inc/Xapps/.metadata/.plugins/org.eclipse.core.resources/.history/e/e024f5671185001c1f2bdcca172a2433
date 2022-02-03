@@ -1,0 +1,10 @@
+package com.xpress.xapps.dbconnect.document;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
+public class RunTimeConfig {
+	
+	private Backend backend;
+
+}

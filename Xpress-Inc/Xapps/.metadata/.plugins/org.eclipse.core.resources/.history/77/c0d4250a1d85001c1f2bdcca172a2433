@@ -1,0 +1,10 @@
+package com.xpress.xapps.authentication.service;
+
+import com.xpress.xapps.authentication.pojo.AuthRequest;
+import com.xpress.xapps.authentication.pojo.AuthResponse;
+
+public interface AuthenticationService {
+
+	AuthResponse executeService(AuthRequest authRequest);
+
+}

@@ -1,0 +1,9 @@
+package com.xpress.xapps.authentication;
+
+public class AuthenticationApp {
+
+	public static void main(String[] args) {
+
+	}
+
+}

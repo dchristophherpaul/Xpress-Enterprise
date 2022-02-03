@@ -1,0 +1,6 @@
+package com.xpress.xapps.authentication.pojo;
+
+
+public interface AuthenticationService {
+
+}
