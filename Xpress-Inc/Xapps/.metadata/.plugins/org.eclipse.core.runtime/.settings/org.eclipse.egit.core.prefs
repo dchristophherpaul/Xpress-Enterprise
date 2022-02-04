@@ -1,2 +1,6 @@
+GitRepositoriesView.GitDirectories=
+GitRepositoriesView.GitDirectories.relative=
+RepositorySearchDialogDeepSearch=true
+RepositorySearchDialogSearchPath=E\:\\Xpress-Inc\\Xapps
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

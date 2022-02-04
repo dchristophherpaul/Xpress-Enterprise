@@ -1,2 +1,3 @@
 com\xpress\xapps\libs\common\dao\XappRequest.class
 com\xpress\xapps\libs\common\dao\XappResponse.class
+com\xpress\xapps\libs\common\utilities\XpressGeneralConstants.class

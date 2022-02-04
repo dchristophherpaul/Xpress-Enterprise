@@ -1,4 +1,4 @@
-com\xpress\xapps\dbconnect\document\Backend.class
-com\xpress\xapps\dbconnect\document\RunTimeConfig.class
-com\xpress\xapps\dbconnect\document\BackEndDetail.class
-com\xpress\xapps\dbconnect\repository\RunTimeConfigRepository.class
+com\xpress\xapps\libs\dbconnect\document\RunTimeConfig.class
+com\xpress\xapps\libs\dbconnect\repository\RunTimeConfigRepository.class
+com\xpress\xapps\libs\dbconnect\document\Backend.class
+com\xpress\xapps\libs\dbconnect\document\BackEndDetail.class

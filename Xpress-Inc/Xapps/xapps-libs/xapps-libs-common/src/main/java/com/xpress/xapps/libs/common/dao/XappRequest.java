@@ -1,9 +1,10 @@
 package com.xpress.xapps.libs.common.dao;
 
-import java.util.ArrayList;
-import java.util.List;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 
-import org.apache.commons.lang3.StringUtils;
+import com.xpress.xapps.libs.common.utilities.XpressGeneralConstants;
 
 import lombok.Data;
 
@@ -11,17 +12,20 @@ import lombok.Data;
 public class XappRequest {
 
 	private String correlationId;
+	
+	@NotBlank
+	@Size(min = 0, max = 10, message = "userId should not exceed 10 character")
 	private String userId;
+	
+	@Size(min = 8, max = 15, message = "Password must contain a length of at least 8 characters and a maximum of 15 characters")
+	@Pattern(regexp = (XpressGeneralConstants.XAPPS_PASSWORD_PATTERN), message = "password should contain "
+			+ "| one digit [0-9] "
+			+ "| one lowercase Latin character [a-z]"
+			+ "| one uppercase Latin character [A-Z]"
+			+ "| one special character like ! @ # & ")
 	private String password;
+	
+	@NotBlank
 	private String service;
-
-	public List<String> validateRequest() {
-		List<String> validationErrorList = new ArrayList<>();
-		if (StringUtils.isBlank(this.userId)) {
-			validationErrorList.add("userID cannot be empty");
-		}
-
-		return validationErrorList;
-	}
 
 }
